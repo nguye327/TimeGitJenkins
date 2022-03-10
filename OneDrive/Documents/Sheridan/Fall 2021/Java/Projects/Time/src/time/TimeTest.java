@@ -8,7 +8,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
 class TimeTest {
-/*	
+	
 	@Test
 	void testGetTotalSecondsGood() {
 	int seconds = 
@@ -95,24 +95,4 @@ class TimeTest {
 		int hours = Time.getTotalHours(candidate);
 		assertTrue("The hours were not calculated  properly", hours==7);
 	}
-	
-	@Test
-	void testGetMilliseconds() {
-	int milliseconds = 
-	Time.getMilliseconds("10:10:10:005");
-	assertTrue("The milliseconds were not calculated  properly", milliseconds==5);;
-	}
-	
-	void testGetMillisecondsBad() {
-		assertThrows(
-				StringIndexOutOfBoundsException.class, 
-				()-> {Time.getMilliseconds("01:01:01:05");});
-		}
-	
-	@Test
-	void testGetMillisecondsBoundary() {
-		int milliseconds = Time.getMilliseconds("99:99:99:999");
-		assertTrue("The milliseconds were not calculated  properly", milliseconds==999);
-	}
-*/
 }

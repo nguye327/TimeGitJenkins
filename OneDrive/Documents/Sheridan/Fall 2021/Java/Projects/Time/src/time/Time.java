@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 public class Time {
 	public static void main(String[] args) {
 		int totalSeconds = getTotalSeconds("Github 10:10:10");
-		System.out.println("Total Seconds = " + totalSeconds);
+		System.out.println("Github Total Seconds = " + totalSeconds);
 	}
 
 	public static int getTotalSeconds(String time) throws NumberFormatException, StringIndexOutOfBoundsException {
